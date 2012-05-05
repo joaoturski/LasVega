@@ -1,19 +1,35 @@
-
-/LasVega.Entity/obj
-/LasVega.Entity/bin
-/LasVega.Dal/obj
-/LasVega.Dal/bin
-/LasVega.Controller/bin
-/LasVega.Controller/obj
-/LasVega/LasVegaGame/obj
-/LasVega/LasVegaGame/bin
+# Shamelessly stolen from SubsonicProject
+# .gitignore for .NET projects
+# Thanks to Derick Bailey
+# http://www.lostechies.com/blogs/derickbailey/archive/2009/05/18/a-net-c-developer-s-gitignore-file.aspx
+ 
+# Standard VS.NET and ReSharper Foo
+obj
+bin
+*.csproj.user
+*ReSharper*
+*resharper*
 *.suo
+*.cache
+Thumbs.db
+ 
+# Other useful stuff
+*.bak
+*.cache
+*.log
+*.swp
 *.user
-/LasVega/LasVegaGame/LasVegaContent/obj
-/LasVega/LasVegaGame/LasVegaContent/bin
-/LasVega/LasVegaGame/LasVega/obj
-/LasVega/LasVegaGame/LasVega/bin
-/LasVegaGame/LasVega/bin
-/LasVegaGame/LasVega/obj
-/LasVegaGame/LasVegaContent/bin
-/LasVegaGame/LasVegaContent/obj
+_compareTemp
+_notes
+aspnet_client
+httpd.parse.errors
+ 
+# Office Temp Files
+~$*
+ 
+# If you have a deploy folder
+# deploy
+# deploy/*
+ 
+# Exclude ALL DLLs? (
+# *.dll
