@@ -1,0 +1,14 @@
+
+/LasVega.Entity/obj
+/LasVega.Entity/bin
+/LasVega.Dal/obj
+/LasVega.Dal/bin
+/LasVega.Controller/bin
+/LasVega.Controller/obj
+/LasVega/LasVegaContent/bin
+/LasVega/LasVegaContent/obj
+/LasVega/LasVega/obj
+/LasVega/LasVega/bin
+*.suo
+/LasVega/LasVega/obj
+/LasVega/LasVegaContent/obj
