@@ -98,11 +98,12 @@
     <Compile Include="Entities\Skills\DebuffSkill.cs" />
     <Compile Include="Entities\Skills\PassiveSkill.cs" />
     <Compile Include="Entities\Skills\Skill.cs" />
+    <Compile Include="Enums\CardTypeEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\Characters\" />
-    <Folder Include="Enums\" />
+    <Folder Include="Entities\Terrain\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>

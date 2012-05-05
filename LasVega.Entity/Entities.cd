@@ -15,14 +15,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="LasVega.Entity.BuffSkill">
-    <Position X="6" Y="4.5" Width="1.5" />
+    <Position X="5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Skills\BuffSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LasVega.Entity.DebuffSkill">
-    <Position X="4" Y="4.5" Width="1.5" />
+    <Position X="5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Skills\DebuffSkill.cs</FileName>

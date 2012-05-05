@@ -5,7 +5,9 @@ using System.Text;
 
 namespace LasVega.Entity
 {
-    public class DebuffSkill : BuffSkill
+    public enum CardTypeEnum
     {
+        Soldier = 1,
+        General = 2
     }
 }
