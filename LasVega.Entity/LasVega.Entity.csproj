@@ -92,8 +92,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\GameObjects\Card.cs" />
+    <Compile Include="Entities\Skills\ActiveSkill.cs" />
+    <Compile Include="Entities\Skills\BuffSkill.cs" />
+    <Compile Include="Entities\Skills\DebuffSkill.cs" />
+    <Compile Include="Entities\Skills\PassiveSkill.cs" />
+    <Compile Include="Entities\Skills\Skill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\Characters\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entities.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
