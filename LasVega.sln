@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega", "LasVega\LasVega\LasVega.csproj", "{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "LasVegaContent", "LasVega\LasVegaContent\LasVegaContent.contentproj", "{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega.Dal", "LasVega.Dal\LasVega.Dal.csproj", "{E0422A2A-04FB-4517-B84F-6C137D12EC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega.Controller", "LasVega.Controller\LasVega.Controller.csproj", "{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega.Entity", "LasVega.Entity\LasVega.Entity.csproj", "{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|x86.ActiveCfg = Debug|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|x86.Build.0 = Debug|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|x86.ActiveCfg = Release|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|x86.Build.0 = Release|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Debug|x86.ActiveCfg = Debug|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Release|x86.ActiveCfg = Release|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|x86.ActiveCfg = Debug|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|x86.Build.0 = Debug|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|x86.ActiveCfg = Release|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|x86.Build.0 = Release|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|x86.ActiveCfg = Debug|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|x86.Build.0 = Debug|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|x86.ActiveCfg = Release|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|x86.Build.0 = Release|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|x86.ActiveCfg = Debug|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|x86.Build.0 = Debug|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|x86.ActiveCfg = Release|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
