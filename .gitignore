@@ -5,10 +5,11 @@
 /LasVega.Dal/bin
 /LasVega.Controller/bin
 /LasVega.Controller/obj
-/LasVega/LasVegaContent/bin
-/LasVega/LasVegaContent/obj
-/LasVega/LasVega/obj
-/LasVega/LasVega/bin
+/LasVega/LasVegaGame/obj
+/LasVega/LasVegaGame/bin
 *.suo
-/LasVega/LasVega/obj
-/LasVega/LasVegaContent/obj
+*.user
+/LasVega/LasVegaGame/LasVegaContent/obj
+/LasVega/LasVegaGame/LasVegaContent/bin
+/LasVega/LasVegaGame/LasVega/obj
+/LasVega/LasVegaGame/LasVega/bin
