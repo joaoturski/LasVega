@@ -7,6 +7,7 @@ namespace LasVega.Entity
 {
     public class CardFaction
     {
+        public uint IdCardFaction { get; private set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
