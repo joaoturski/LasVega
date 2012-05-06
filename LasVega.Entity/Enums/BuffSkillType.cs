@@ -5,10 +5,10 @@ using System.Text;
 
 namespace LasVega.Entity
 {
-    public enum CardTypeEnum
+    public enum BuffSkillType
     {
-        Soldier = 1,
-        General = 2,
-        Equipament = 3
+        Buff = 1,
+        Debuff = 2,
+        DebuffPoison = 3
     }
 }

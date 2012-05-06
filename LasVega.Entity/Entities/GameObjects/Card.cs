@@ -8,6 +8,7 @@ namespace LasVega.Entity
     public class Card
     {
         public uint IdCard { get; private set; }
+        public CardFaction Faction { get; private set; }
         public CardTypeEnum CardType { get; private set; }
         public string Name { get; private set; }
         public string Description { get; private set; }
@@ -21,9 +22,6 @@ namespace LasVega.Entity
         public IList<ActiveSkill> ActiveSkills { get; private set; }
         public IList<PassiveSkill> PassiveSkills { get; private set; }
         public IList<BuffSkill> Buffs { get; private set; }
-        public IList<DebuffSkill> Debuffs { get; private set; }
-
-        //TODO: DEFINIR OS STATS DAS CARTAS
-
+        public IList<BuffSkill> Debuffs { get; private set; }
     }
 }

@@ -93,11 +93,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\GameObjects\Card.cs" />
+    <Compile Include="Entities\GameObjects\CardFaction.cs" />
+    <Compile Include="Entities\GameObjects\FactionRelationship.cs" />
     <Compile Include="Entities\Skills\ActiveSkill.cs" />
     <Compile Include="Entities\Skills\BuffSkill.cs" />
-    <Compile Include="Entities\Skills\DebuffSkill.cs" />
     <Compile Include="Entities\Skills\PassiveSkill.cs" />
     <Compile Include="Entities\Skills\Skill.cs" />
+    <Compile Include="Enums\BuffSkillType.cs" />
     <Compile Include="Enums\CardTypeEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

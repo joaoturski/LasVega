@@ -5,7 +5,8 @@ using System.Text;
 
 namespace LasVega.Entity
 {
-    public class DebuffSkill : BuffSkill
+    public class FactionRelationship
     {
+
     }
 }

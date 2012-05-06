@@ -5,10 +5,11 @@ using System.Text;
 
 namespace LasVega.Entity
 {
-    public enum CardTypeEnum
+    public class CardFaction
     {
-        Soldier = 1,
-        General = 2,
-        Equipament = 3
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+
     }
 }
