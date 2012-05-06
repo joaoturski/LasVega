@@ -92,6 +92,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Combat\CombatEngine.cs" />
     <Compile Include="Entities\GameObjects\Card.cs" />
     <Compile Include="Entities\GameObjects\CardFaction.cs" />
     <Compile Include="Entities\GameObjects\FactionRelationship.cs" />
