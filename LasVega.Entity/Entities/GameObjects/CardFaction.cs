@@ -10,6 +10,6 @@ namespace LasVega.Entity
         public string Name { get; set; }
         public string Description { get; set; }
 
-
+        public IList<FactionRelationship> Relationships { get; set; }
     }
 }
