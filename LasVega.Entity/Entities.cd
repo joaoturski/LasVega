@@ -8,28 +8,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="LasVega.Entity.ActiveSkill">
-    <Position X="2.25" Y="2.75" Width="1.5" />
+    <Position X="1.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Skills\ActiveSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LasVega.Entity.BuffSkill">
-    <Position X="5" Y="4.25" Width="1.5" />
+    <Position X="5.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Entities\Skills\BuffSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="LasVega.Entity.DebuffSkill">
-    <Position X="5" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Entities\Skills\DebuffSkill.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="LasVega.Entity.PassiveSkill">
-    <Position X="5" Y="2.75" Width="1.5" />
+    <Position X="3.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Skills\PassiveSkill.cs</FileName>
@@ -38,7 +31,7 @@
   <Class Name="LasVega.Entity.Skill">
     <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAACAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAEACAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
       <FileName>Entities\Skills\Skill.cs</FileName>
     </TypeIdentifier>
   </Class>
