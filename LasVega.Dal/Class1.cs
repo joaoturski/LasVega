@@ -13,5 +13,6 @@ namespace LasVega.Dal
 {
     public class Class1
     {
+
     }
 }
