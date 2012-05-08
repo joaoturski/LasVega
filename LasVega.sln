@@ -11,32 +11,92 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega", "LasVegaGame\LasV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVegaContent", "LasVegaGame\LasVegaContent\LasVegaContent.contentproj", "{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{DC414678-7563-4F59-A1C5-8E0388AB8DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LasVega.Entity.Test", "LasVega.Entity.Test\LasVega.Entity.Test.csproj", "{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26177C3B-2B17-4F5D-A281-BBFE9BD37AD1}"
+	ProjectSection(SolutionItems) = preProject
+		LasVega.vsmdi = LasVega.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = LasVega.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|x86.ActiveCfg = Debug|x86
 		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Debug|x86.Build.0 = Debug|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|Any CPU.ActiveCfg = Release|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|Mixed Platforms.Build.0 = Release|x86
 		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|x86.ActiveCfg = Release|x86
 		{E0422A2A-04FB-4517-B84F-6C137D12EC59}.Release|x86.Build.0 = Release|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|x86.ActiveCfg = Debug|x86
 		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Debug|x86.Build.0 = Debug|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|Any CPU.ActiveCfg = Release|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|x86.ActiveCfg = Release|x86
 		{8C031F18-E3DB-481F-88D6-1CAD42EB69E5}.Release|x86.Build.0 = Release|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|x86.ActiveCfg = Debug|x86
 		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Debug|x86.Build.0 = Debug|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|Any CPU.ActiveCfg = Release|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|Mixed Platforms.Build.0 = Release|x86
 		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|x86.ActiveCfg = Release|x86
 		{81AFBD8D-194C-4AD6-95BD-50EA8C708A11}.Release|x86.Build.0 = Release|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|x86.ActiveCfg = Debug|x86
 		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Debug|x86.Build.0 = Debug|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|Any CPU.ActiveCfg = Release|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|Mixed Platforms.Build.0 = Release|x86
 		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|x86.ActiveCfg = Release|x86
 		{57429B4C-DFCE-4E0A-B2F5-4F7FDD03BEBD}.Release|x86.Build.0 = Release|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Debug|x86.ActiveCfg = Debug|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Release|Any CPU.ActiveCfg = Release|x86
+		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}.Release|x86.ActiveCfg = Release|x86
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADCA8FA1-D657-451F-AD90-16A822EFDE9B} = {DC414678-7563-4F59-A1C5-8E0388AB8DF9}
+		{26177C3B-2B17-4F5D-A281-BBFE9BD37AD1} = {DC414678-7563-4F59-A1C5-8E0388AB8DF9}
 	EndGlobalSection
 EndGlobal

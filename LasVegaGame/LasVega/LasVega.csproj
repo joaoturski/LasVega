@@ -13,7 +13,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
     <XnaPlatform>Windows</XnaPlatform>
-    <XnaProfile>HiDef</XnaProfile>
+    <XnaProfile>Reach</XnaProfile>
     <XnaCrossPlatformGroupID>8fd445fd-0392-49ed-9994-57f2ee8d5f5e</XnaCrossPlatformGroupID>
     <XnaOutputType>Game</XnaOutputType>
     <ApplicationIcon>Game.ico</ApplicationIcon>
@@ -117,8 +117,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LasVegaContent\LasVegaContent.contentproj">
-      <Name>LasVegaContent</Name>
+      <Name>LasVegaContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{3A98698D-5FFC-4D7A-9DE6-CF97E1FEDB92}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
