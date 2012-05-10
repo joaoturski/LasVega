@@ -98,10 +98,15 @@
     <Compile Include="Entities\Characters\OpponentAI.cs" />
     <Compile Include="Entities\Characters\OpponentRemote.cs" />
     <Compile Include="Entities\Characters\Player.cs" />
-    <Compile Include="Entities\Combat\CombatEngine.cs" />
+    <Compile Include="Entities\Battle\CombatEngine.cs" />
     <Compile Include="Entities\GameObjects\Card.cs" />
     <Compile Include="Entities\GameObjects\CardFaction.cs" />
     <Compile Include="Entities\GameObjects\FactionRelationship.cs" />
+    <Compile Include="Entities\ScreenManager\Fonts.cs" />
+    <Compile Include="Entities\ScreenManager\GameScreen.cs" />
+    <Compile Include="Entities\ScreenManager\MenuEntry.cs" />
+    <Compile Include="Entities\ScreenManager\MenuScreen.cs" />
+    <Compile Include="Entities\ScreenManager\ScreenManager.cs" />
     <Compile Include="Entities\Skills\ActiveSkill.cs" />
     <Compile Include="Entities\Skills\BuffSkill.cs" />
     <Compile Include="Entities\Skills\PassiveSkill.cs" />
@@ -112,7 +117,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\Terrain\" />
+    <Folder Include="Entities\Audio\" />
+    <Folder Include="Entities\Screens\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entities.cd" />
