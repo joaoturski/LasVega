@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections.ObjectModel;
 
 namespace LasVega.Entity
 {
@@ -17,11 +18,9 @@ namespace LasVega.Entity
         public ushort OriginalAttackPoints { get; private set; }
         public short CurrentAttackPoints { get; private set; }
 
-        // TODO: CRIAR UMA COLLECTION PROPRIA, PARA EVITAR PROBLEMAS FUTUROS DE
-        // DESVIRTUAÇÃO DE RESPONSABILIDADES, POR PARTE DE FUTUROS NOVOS PROGRAMADORES DESAVISADOS...
-        public IList<ActiveSkill> ActiveSkills { get; private set; }
-        public IList<PassiveSkill> PassiveSkills { get; private set; }
-        public IList<BuffSkill> Buffs { get; private set; }
-        public IList<BuffSkill> Debuffs { get; private set; }
+        public ReadOnlyCollection<ActiveSkill> ActiveSkills { get; private set; }
+        public ReadOnlyCollection<PassiveSkill> PassiveSkills { get; private set; }
+        public ReadOnlyCollection<BuffSkill> Buffs { get; private set; }
+        public ReadOnlyCollection<BuffSkill> Debuffs { get; private set; }
     }
 }

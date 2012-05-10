@@ -108,11 +108,11 @@
     <Compile Include="Entities\Skills\Skill.cs" />
     <Compile Include="Enums\BuffSkillType.cs" />
     <Compile Include="Enums\CardTypeEnum.cs" />
+    <Compile Include="Interfaces\IGameObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\Terrain\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entities.cd" />
