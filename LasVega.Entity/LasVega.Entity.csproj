@@ -92,6 +92,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ActiveSkillCollection.cs" />
+    <Compile Include="Collections\BuffSkillCollection.cs" />
+    <Compile Include="Collections\Deck.cs" />
+    <Compile Include="Collections\PassiveSkillCollection.cs" />
     <Compile Include="Entities\Battle\Battle.cs" />
     <Compile Include="Entities\Characters\Character.cs" />
     <Compile Include="Entities\Characters\Opponent.cs" />

@@ -7,5 +7,6 @@ namespace LasVega.Entity
 {
     public class Opponent : Character
     {
+
     }
 }

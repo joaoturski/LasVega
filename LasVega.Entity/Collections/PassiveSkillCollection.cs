@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
 
-namespace LasVega.Entity
+namespace LasVega.Entity.Collections
 {
-    public class Player : Character
+    public class PassiveSkillCollection : ReadOnlyCollection<PassiveSkill>
     {
 
     }

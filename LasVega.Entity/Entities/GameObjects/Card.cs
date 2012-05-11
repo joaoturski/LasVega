@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
+using LasVega.Entity.Collections;
 
 namespace LasVega.Entity
 {
@@ -15,12 +16,12 @@ namespace LasVega.Entity
         public string Description { get; private set; }
         public DateTime CreationDate { get; private set; }
         public DateTime AcquisitionDate { get; private set; }
-        public ushort OriginalAttackPoints { get; private set; }
-        public short CurrentAttackPoints { get; private set; }
+        public ushort OriginalActionPoints { get; private set; }
+        public short CurrentActionPoints { get; private set; }
 
-        public ReadOnlyCollection<ActiveSkill> ActiveSkills { get; private set; }
-        public ReadOnlyCollection<PassiveSkill> PassiveSkills { get; private set; }
-        public ReadOnlyCollection<BuffSkill> Buffs { get; private set; }
-        public ReadOnlyCollection<BuffSkill> Debuffs { get; private set; }
+        public ActiveSkillCollection ActiveSkills { get; private set; }
+        public PassiveSkillCollection PassiveSkills { get; private set; }
+        public BuffSkillCollection Buffs { get; private set; }
+        public BuffSkillCollection Debuffs { get; private set; }
     }
 }
