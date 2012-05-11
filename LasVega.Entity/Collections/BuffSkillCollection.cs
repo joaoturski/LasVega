@@ -8,6 +8,10 @@ namespace LasVega.Entity.Collections
 {
     public class BuffSkillCollection : ReadOnlyCollection<BuffSkill>
     {
+        public BuffSkillCollection(IList<BuffSkill> skills)
+            : base(skills)
+        {
 
+        }
     }
 }

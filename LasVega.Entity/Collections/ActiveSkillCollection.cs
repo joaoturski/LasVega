@@ -8,6 +8,10 @@ namespace LasVega.Entity.Collections
 {
     public class ActiveSkillCollection : ReadOnlyCollection<ActiveSkill>
     {
+        public ActiveSkillCollection(IList<ActiveSkill> skills)
+            : base(skills)
+        {
 
+        }
     }
 }
