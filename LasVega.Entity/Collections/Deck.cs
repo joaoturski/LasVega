@@ -62,8 +62,6 @@ namespace LasVega.Entity.Collections
             var rndList = this.Where(x => x.CardType == CardTypeEnum.Soldier).Except(existing).ToArray();
             var rndIdx = new Random(DateTime.Now.Millisecond).Next(0, rndList.Count() - 1);
             return rndList[rndIdx];
-        }
-
-        
+        }   
     }
 }
