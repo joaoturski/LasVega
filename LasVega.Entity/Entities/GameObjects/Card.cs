@@ -9,15 +9,15 @@ namespace LasVega.Entity
 {
     public class Card
     {
-        public uint IdCard { get; private set; }
-        public CardFaction Faction { get; private set; }
-        public CardTypeEnum CardType { get; private set; }
-        public string Name { get; private set; }
-        public string Description { get; private set; }
-        public DateTime CreationDate { get; private set; }
-        public DateTime AcquisitionDate { get; private set; }
-        public ushort OriginalActionPoints { get; private set; }
-        public short CurrentActionPoints { get; private set; }
+        public uint IdCard { get; set; }
+        public CardFaction Faction { get; set; }
+        public CardTypeEnum CardType { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime CreationDate { get; set; }
+        public DateTime AcquisitionDate { get; set; }
+        public ushort OriginalActionPoints { get; set; }
+        public short CurrentActionPoints { get; set; }
 
         public ActiveSkillCollection ActiveSkills { get; private set; }
         public PassiveSkillCollection PassiveSkills { get; private set; }
